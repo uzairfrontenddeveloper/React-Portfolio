@@ -1,0 +1,108 @@
+.header{
+    background-color: #fff;
+    color: #000;
+}
+.check-amount{
+  float: right;
+    padding: 20px 0;
+}
+#mx{
+    margin: 0 5px;
+}
+.side-wrap{
+    width: 70%;
+    float: left;
+
+}
+@media(max-width: 768px){
+
+.side-wrap{
+    width: 100%;
+
+}
+
+.img-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.flex-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+.flx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+}
+.main{
+    width: 30%;
+    float: right;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+    
+  
+}
+#incres{
+    padding: 5px 10px;
+    outline: none;
+    background-color: rgb(77, 77, 211);
+    border: none;
+    color: #fff;
+  
+}
+#decres{
+    padding: 5px 10px;
+    outline: none;
+    background-color: rgb(77, 77, 211);
+    border: none;
+    color: #fff;
+  
+}
+.remove{
+    outline: none;
+    padding: 10px 30px;
+    border: none;
+    background-color: rgb(39, 182, 103);
+    color: #fff;
+    border-radius: 5px;
+}
+.removebtn{
+    display: flex;
+    justify-content: left;
+    padding-top: 50px;
+}
+
+.qnty{
+    padding: 10px;
+}
+/* .backproduct{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+} */
+.product-wrap{
+    outline: none;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(39, 182, 103);
+    color: #fff;
+    border-radius: 5px;
+}
+.Close{
+  float: right;
+}

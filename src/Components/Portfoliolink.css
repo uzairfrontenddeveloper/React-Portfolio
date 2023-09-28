@@ -1,0 +1,39 @@
+.port-img{
+    overflow: hidden;
+}
+.port-img img:hover{
+    transform: scale(1.1);
+transition: all 1s;
+
+}
+.portfolio{
+    text-align: center;
+    padding-top: 130px;
+    color: #fff;
+    letter-spacing: 15px;
+    -webkit-text-stroke: 2px #121455;
+
+
+}
+.portfolio-par{
+    padding-top: 40px;
+}
+.links-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.links-wrap ul{
+    display: flex;
+}
+.links-wrap ul li{
+    list-style: none;
+    color: #fff;
+    padding: 0 40px;
+    cursor: pointer;
+}
+.port-img{
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+/* #55ceef */
+/* #1e293b */
+
+
+
+.List-wrap h3{
+    text-align: center;
+    color: #55ceef;
+    font-size: 30px;
+}
+.listedit{
+    cursor: pointer;
+  
+    color: #55ceef;
+    
+}
+.removelist{
+    color: #55ceef;
+    position: relative;
+    left: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.resume-item{
+    text-align: center;
+    padding-top: 130px;
+    color: #fff;
+    letter-spacing: 15px;
+
+}
+.time-line{
+    border-left: 2px solid #0d0e3a;
+        display: flex;
+        flex-direction: column;
+        padding-top: 10px;
+  
+
+}
+.child-time-line{
+    background-color: #060725e8;
+        color: #fff;
+    position: relative;
+    width: 80%;
+    height: 200px;
+    left: 20px;
+    padding: 5px 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+   
+    box-sizing: content-box;
+
+}
+.child-time-line::before{
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-color: #121455;
+    position: absolute;
+    border-radius: 50%;
+    left: -33px;
+    top: -17px;
+}
+.resume-item h1{
+    -webkit-text-stroke: 2px #121455;
+    font-size: 40px;
+}

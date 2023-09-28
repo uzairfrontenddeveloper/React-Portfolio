@@ -1,0 +1,73 @@
+.Skill-item{
+    padding-top: 70px;
+    color: #121353;
+    padding-bottom: 50px;
+}
+.heading{
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percen{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+.html-wrap{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(240, 232, 232, 0.534);
+    border-radius: 50px;
+    border: 1px solid #101031;
+}
+.html-item{
+    width: 0;
+    height: 8px;
+    background-color: #101031;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: all .8s;
+    
+}
+.css-item{
+    width: 0;
+    height: 8px;
+    background-color: #101031;
+    border-radius: 30px;
+    transition: all .8s;
+
+}
+.js-item{
+    width: 0;
+    height: 8px;
+    background-color: #101031;
+    border-radius: 30px;
+    transition: all .8s;
+
+}
+.jq-item{
+    width: 0;
+    height: 8px;
+    background-color: #101031;
+    border-radius: 30px;
+    transition: all .8s;
+
+}
+.boots-item{
+    width: 0;
+    height: 8px;
+    background-color: #101031;
+    border-radius: 30px;
+    transition: all .8s;
+
+}
+.react-item{
+    width: 0;
+    height: 8px;
+    background-color: #101031;
+    border-radius: 30px;
+    transition: all .8s;
+
+}

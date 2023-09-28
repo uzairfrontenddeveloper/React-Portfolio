@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+
+
+}
+.par-item{
+    width: 100%;
+    height: auto;
+ background-color:#000014;
+
+
+}
+
+.side-content span{
+    color:  #7045a6;
+}
+.side-content p{
+    text-align: left;
+    font-size: 40px;
+    color: #fff;
+    padding-top: 120px;
+}
+.side-img{
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+.side-img img{
+    padding-top: 60px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.side-img img:hover{
+    filter: drop-shadow(6px 6px 5px #7045a6);
+
+}

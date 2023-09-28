@@ -1,0 +1,53 @@
+.counter-par{
+    /* height: auto; */
+    overflow: auto;
+    background-color:#0303318c;
+  
+    width: 100%;
+
+  
+}
+
+.count{
+    color: #fff8f8b9;
+    text-align: center;
+    font-size: 45px;
+    padding: 40px 0;
+    position: relative;
+    cursor: pointer;
+}
+.count::after{
+    position: absolute;
+    content: "+";
+    
+}
+.icons{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.icons .intstagram{
+       font-size: 40px;
+       position: relative;
+       top: 30px;
+}
+.icons .facebok{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+.icons .utube{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+.icons .twter{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+}
+
+
+
